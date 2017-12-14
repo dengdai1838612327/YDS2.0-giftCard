@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>商品详情</title>
+<link rel="stylesheet" type="text/css" href="css/common.css">
+<link rel="stylesheet" type="text/css" href="css/layout.css">
+<meta content="yes" name="apple-mobile-web-app-capable" />
+<meta content="black" name="apple-mobile-web-app-status-bar-style" />
+<meta content="telephone=no" name="format-detection" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="format-detection" content="telephone=no" />
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1,user-scalable=0">
+</head>
+<body>
+<div class="content" style="padding:0 0 50px;">
+
+  <div class="head-link">
+    <a href="###" class="back">
+      <i class="sprites"></i>
+    </a>
+    <div class="fr">
+      <a href="###" class="other">
+        <i class="sprites"></i>
+      </a>
+    </div>
+    <div class="other-link">
+      <a href="###" class="index">
+        <i class="sprites"></i>
+        <span>首页</span>
+      </a>
+      <a href="###" class="me">
+        <i class="sprites"></i>
+        <span>我的</span>
+      </a>
+    </div>
+  </div>
+  <div class="swiper-container goods-detail-swiper">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="images/detail-img.jpg"></div>
+        <div class="swiper-slide"><img src="images/detail-img.jpg"></div>
+        <div class="swiper-slide"><img src="images/detail-img.jpg"></div>
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+  <div class="goods-price">
+    <span>￥2333.33+150000积分</span>
+  </div>
+  <div class="goods-name">
+    <p class="name">星巴克 焦糖咖啡星冰乐一杯（仅限上海地区）星巴克 焦糖咖啡星冰乐一杯（仅限上海地区）星巴克 焦糖咖啡星冰乐一杯（仅限上海地区）星巴克 焦糖咖啡星冰乐一杯（仅限上海地区）星巴克 焦糖咖啡星冰乐一杯（仅限上海地区）星巴克 焦糖咖啡星冰乐一杯（仅限上海地区）</p>
+  </div>
+  <div class="goods-num">
+    <label>数量：</label>
+    <div class="fl">
+      <span class="jian off"></span>
+      <!-- <span class="jian"></span> -->
+      <input type="text" class="num" value="1">
+      <span class="jia"></span>
+      <!-- <span class="jia off"></span> -->
+    </div>
+  </div>
+  <div class="goods-detail">
+    <h4>商品详情</h4>
+    <div class="detail-img">
+      <img src="images/detail-img.jpg">
+      <img src="images/detail-img.jpg">
+      <img src="images/detail-img.jpg">
+    </div>
+  </div>
+  <div class="goods-btn">
+    <input type="button" value="立即购买" class="buy">
+  </div>
+  <div class="back-top btm60">
+    <a href="###"><i class="sprites"></i></a>
+  </div>
+</div>
+<script src="js/jquery.min.js"></script>
+<script src="js/swiper.min.js"></script>
+<script>
+var mySwiper = new Swiper('.swiper-container',{
+  pagination : '.swiper-pagination',
+  uniqueNavElements :"true",
+})
+</script>
+</body>
+</html>
